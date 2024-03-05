@@ -1,0 +1,375 @@
+nav {
+  width: 100%;
+  background: black;
+  padding: 1.3% 0;
+} 
+
+/* .topnav ul {
+  text-align: center;
+  margin-left: -3%;
+}
+
+.topnav ul li {
+  display: inline-block;
+} */
+
+nav a {
+  padding: 0px 180px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.hero-banner {
+  background: #FF4545;
+  padding: 3% 7%;
+}
+
+.hero-text p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0px;
+}
+
+.hero-text img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#explore {
+  background: black;
+  padding: 7% 7%;
+}
+
+#about-me {
+  background: white;
+  padding: 5% 10%;
+}
+
+/* explore more section */
+.explore-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-text a {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 4% 13%;
+  border-radius: 15px;
+}
+
+.box-text {
+  text-align: center;
+  padding: 2%;
+  width: 25%;
+  color: white;
+  background: #FF4545;
+  padding-bottom: 5%;
+  border-radius: 15px;
+}
+
+.box-text p {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 8%;
+  padding-top: 5%;
+}
+
+h2, .box-text p {
+  font-size: 30px;
+}
+
+/* about me section */
+.education, .skill, .box-text a {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2%;
+}
+
+.container img {
+  margin-top: -4%;
+}
+
+.education {
+  padding-right: 7%;
+}
+
+#about-me ul {
+  font-size: 20px;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+.list-container {
+  display: flex;
+}
+
+.skill-container {
+  position: relative;
+}
+
+.skill {
+  position: absolute;
+  left: 0%;
+  margin-right: 60%;
+}
+
+.circle {
+  margin-left: 3%;
+  width: 105%;
+  height: 700px;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+/* skill circle visuals */
+.circle1-1, .circle1-2, .circle1-3, .circle1-4, .circle1-5, .circle1-6, .circle1-7, .circle1-8, .circle1-9, .circle1-10, .circle1-11, .circle1-12, .circle1-13, .circle1-14, .circle1-15, .circle1-16,
+.circle2-1, .circle2-2, .circle2-3, .circle2-4,
+.circle3-1, .circle3-2, .circle3-3, .circle3-4,
+.circle4-1, .circle4-2,
+.circle5-1, .circle5-2,
+.circle6-1 {
+  position: absolute;
+  background-color: #FF4545;
+  border-radius: 50%;
+}
+
+.circle1-1, .circle1-2, .circle1-3, .circle1-4, .circle1-5, .circle1-6, .circle1-7, .circle1-8, .circle1-9, .circle1-10, .circle1-11, .circle1-12, .circle1-13, .circle1-14, .circle1-15, .circle1-16 {
+  width: 50px;
+  height: 50px;
+}
+
+.circle2-1, .circle2-2, .circle2-3, .circle2-4 {
+  width: 100px;
+  height: 100px;
+}
+
+.circle3-1, .circle3-2, .circle3-3, .circle3-4 {
+  width: 120px;
+  height: 120px;
+}
+
+.circle4-1, .circle4-2 {
+  width: 170px;
+  height: 170px;
+}
+
+.circle5-1, .circle5-2 {
+  width: 200px;
+  height: 200px;
+}
+
+.circle6-1 {
+  top: 14%;
+  right: 180px;
+  width: 250px;
+  height: 250px;
+}
+
+.circle1-1 {
+  top: 6%; 
+  right: 350px;
+}
+
+.circle1-2 {
+  top: 22%; 
+  right: 120px;
+}
+
+.circle1-3 {
+  top: 14%; 
+  right: 50px;
+}
+
+.circle1-4 {
+  top: 59%; 
+  right: 510px;
+}
+
+.circle1-5 {
+  top: 59%; 
+  right: 985px;
+}
+
+.circle1-6 {
+  top: 55%; 
+  right: 1060px;
+}
+
+.circle1-7 {
+  /* top: 56%; */ 
+  /* right: 1135px; */
+  top: 61%;
+  right: 1130px;
+}
+
+.circle1-8 {
+/*   top: 62%; 
+  right: 1205px; */
+  top: 72%;
+  right: 1155px;
+}
+
+.circle1-9 {
+  top: 14%; 
+  right: 560px;
+}
+
+.circle1-10 {
+  top: 52%; 
+  right: 65px;
+}
+
+.circle1-11 {
+  top: 80%; 
+  right: 200px;
+}
+
+.circle1-12 {
+  top: 89%; 
+  right: 390px;
+}
+
+.circle1-13 {
+  top: 60%; 
+  right: 740px;
+}
+
+.circle1-14 {
+  top: 41%; 
+  right: 670px;
+}
+
+.circle1-15 {
+  top: 25%; 
+  right: 0px;
+}
+
+.circle1-16 {
+  top: 95%; 
+  right: 590px;
+}
+
+.circle2-1 {
+  top: -5%; 
+  right: 240px;
+}
+
+.circle2-2 {
+  top: 3%; 
+  right: 130px;
+}
+
+.circle2-3 {
+  top: 52%; 
+  right: 360px;
+}
+
+.circle2-4 {
+  top: 70%; 
+  right: 295px;
+}
+
+.circle3-1 {
+  top: 7%; 
+  right: 410px;
+}
+
+.circle3-2 {
+  top: 31%; 
+  right: 50px;
+}
+
+.circle3-3 {
+  top: 53%; 
+  right: 600px;
+}
+
+.circle3-4 {
+  top: 62%; 
+  right: 850px;
+}
+
+.circle4-1 {
+  top: 51%;
+  right: 130px;
+}
+
+.circle4-2 {
+  top: 69%;
+  right: 440px;
+}
+
+.circle5-1 {
+  top: 25%; 
+  right: 450px;
+}
+
+.circle5-2 {
+  top: 71%; 
+  right: 650px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  padding-top: 45px 7%;
+  background-color: black;
+  &:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+}
+
+.footer h2 {
+  margin-top: 10%;
+  margin-bottom: 6%;
+  margin-left: 15%;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 10%;
+  margin-left: 8%;
+  color: white;
+}
+
+.footer ul {
+  margin-left: 7%;
+}
+
+.footer li {
+  list-style: none;
+  margin-bottom: 4%;
+  margin-right: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer li a, .footer li p {
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  font-size: 15px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column p, .column ul {
+  padding-right: 12%;
+  padding-left: 7%;
+}
